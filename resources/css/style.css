@@ -32,7 +32,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -40,7 +40,7 @@ html {
 }
 
 body {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: rgb(30, 30, 34);
@@ -96,23 +96,14 @@ h1 {
   padding-top: 4rem;
 }
 
-.name-container {
-  display: flex ;
+p {
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.webdev {
+  display: flex;
   justify-content: center;
-  padding-top: 1.5rem;
-  height: 50vh;
-}
-
-.open {
-  justify-content: space-between;
-}
-
-.name-container, p {
-  padding: 0.5rem;
-}
-
-.first-name, .last-name {
-  font-size: 3rem;
 }
 
 
