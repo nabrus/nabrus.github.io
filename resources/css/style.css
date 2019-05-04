@@ -153,4 +153,23 @@ p {
   font-size: 5.5rem;
 }
 
+.fa-html5 {
+  color: orangered;
+}
+
+.fa-css3 {
+  color: turquoise;
+  font-size: 5rem;
+}
+
+.fa-js {
+  color: yellow;
+}
+
+.fa-terminal {
+  color: whitesmoke;
+  background-color: black;
+  font-size: 5rem;
+}
+
 
