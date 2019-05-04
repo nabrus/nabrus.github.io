@@ -119,10 +119,8 @@ main {
   height: 60vh;
 }
 
-
 .greeting {
-  padding: 6.5rem 0 0 10rem;
-  
+  padding: 6.5rem 0 0 10rem; 
 }
 
 h1 span {
