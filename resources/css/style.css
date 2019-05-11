@@ -118,9 +118,14 @@ header nav ul {
   #DROP DOWN
 ---------------------------*/
 .dropdown {
+  display: none;
   position: absolute;
   top: 8%;
   left: 48%;
+}
+
+.open {
+  display: block;
 }
 
 .dropdown ul {
