@@ -119,8 +119,8 @@ header nav ul {
 ---------------------------*/
 .dropdown {
   position: absolute;
-  top: 10%;
-  left: 50%;
+  top: 8%;
+  left: 48%;
 }
 
 .dropdown ul {
