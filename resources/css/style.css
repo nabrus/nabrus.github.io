@@ -102,11 +102,33 @@ nav {
   font-family: 'IBM Plex Mono';
 }
 
-li:nth-child(2) {
+.fa-bars {
   font-size: 2.8rem;
 }
 
 header nav ul {
+  align-items: center;
+}
+
+
+
+
+
+/*---------------------------
+  #DROP DOWN
+---------------------------*/
+.dropdown {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+}
+
+.dropdown ul {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 
