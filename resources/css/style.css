@@ -123,6 +123,10 @@ main {
   height: 60vh;
 }
 
+main p {
+  font-size: 4.5rem;
+}
+
 .greeting {
   padding: 6.5rem 0 0 10rem; 
 }
