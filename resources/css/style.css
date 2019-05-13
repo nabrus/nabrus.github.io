@@ -123,25 +123,23 @@ header nav ul {
 /*---------------------------
   #DROP DOWN
 ---------------------------*/
+
 .dropdown {
   display: none;
   position: absolute;
   top: 8%;
-  left: 48%;
+  left: 63%;
+  height: 50vh;
+  width: 35vw;
 }
 
 .open {
-  display: block;
-}
-
-.dropdown ul {
-  height: 50vh;
-  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
 }
+
+
 
 
 
