@@ -109,7 +109,7 @@ button {
 }
 
 .fa-bars {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 header nav ul {
@@ -151,7 +151,7 @@ header nav ul {
 
 main {
   font-size: 4rem;
-  height: 60vh;
+  /* min-height: 60px; */
 }
 
 main p {
@@ -178,7 +178,7 @@ p {
   #SKILLS
 ---------------------------*/
 
-.skills {
+.skills {;
   display: flex;
   justify-content: space-evenly;
   text-align: center;
