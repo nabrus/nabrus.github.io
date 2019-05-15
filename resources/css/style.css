@@ -210,3 +210,17 @@ p {
 }
 
 
+
+
+/*---------------------------
+  #MYWORK
+---------------------------*/
+
+.screenshot-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.colmar {
+  max-width: 35%;
+}
