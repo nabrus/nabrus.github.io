@@ -178,7 +178,12 @@ p {
   #SKILLS
 ---------------------------*/
 
-.skills {;
+.skills h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.skills-container {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
@@ -216,7 +221,7 @@ p {
   #MYWORK
 ---------------------------*/
 
-.my-work h3 {
+.my-work h2 {
   text-align: center;
   font-size: 2.5rem;
   padding: 2rem;
