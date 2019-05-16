@@ -159,6 +159,7 @@ main p {
 }
 
 .greeting {
+  min-height: 100vh;
   padding: 14rem 0 0 10rem; 
 }
 
