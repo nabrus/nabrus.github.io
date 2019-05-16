@@ -190,6 +190,10 @@ p {
   text-align: center;
 }
 
+.skills-container h3 {
+  padding: 1rem;
+}
+
 .icons {
   display: flex;
   justify-content: center;
