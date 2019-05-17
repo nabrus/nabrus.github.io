@@ -191,16 +191,15 @@ p {
 }
 
 .skills-container {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   border-radius: 50%;
+  overflow: hidden;
 }
 
-.fab, .fas {
-  /* display: flex;
-  justify-content: center; */
+.fab {
   font-size: 4.5rem;
-  padding-top: 1.5rem;
+  margin-top: 1.5rem;
   
 }
 
@@ -219,6 +218,8 @@ p {
 .fa-terminal {
   color: whitesmoke;
   background-color: black;
+  margin-top: 1.8rem;
+  font-size: 3.5rem;
 }
 
 
