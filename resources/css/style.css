@@ -190,14 +190,17 @@ p {
   text-align: center;
 }
 
-.skills-container h3 {
-  padding: 1rem;
+.skills-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }
 
-.icons {
-  display: flex;
-  justify-content: center;
-  font-size: 5.5rem;
+.fab, .fas {
+  /* display: flex;
+  justify-content: center; */
+  font-size: 4.5rem;
+  padding-top: 1.5rem;
   
 }
 
@@ -207,7 +210,6 @@ p {
 
 .fa-css3 {
   color: turquoise;
-  font-size: 5rem;
 }
 
 .fa-js {
@@ -217,7 +219,6 @@ p {
 .fa-terminal {
   color: whitesmoke;
   background-color: black;
-  font-size: 5rem;
 }
 
 
