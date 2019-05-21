@@ -86,7 +86,7 @@ a {
   ---------------------------*/
 
 header {
-  /* position: relative; */
+  min-height: 80vh;
   font-size: 4rem;
   padding: 7rem;
 }
