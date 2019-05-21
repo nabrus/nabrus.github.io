@@ -83,17 +83,26 @@ a {
 
 /*---------------------------
   #HEADER
----------------------------*/
+  ---------------------------*/
+
+header {
+  /* position: relative; */
+  font-size: 4rem;
+  padding: 7rem;
+}
 
 nav {
-  height: 4rem;
+  height: 6rem;
   display: flex;
+  position: sticky; top: 0;
+  justify-content: space-between;
 }
 
 button {
   border: none;
   color: white;
 }
+
 
 .site-nav {
   color: white;
@@ -178,6 +187,10 @@ p {
 /*---------------------------
   #SKILLS
 ---------------------------*/
+
+.skills {
+  min-height: 100vh;
+}
 
 .skills h2 {
   text-align: center;
