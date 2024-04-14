@@ -1,8 +1,8 @@
-const hamburger = document.querySelector(".fa-bars");
-const dropdown = document.querySelector(".dropdown");
+const hamburger = document.querySelector('.fa-bars');
+const dropdown = document.querySelector('.dropdown');
 
 function toggle() {
-  dropdown.classList.toggle("open");
+  dropdown.classList.toggle('open');
 }
 
-hamburger.addEventListener("click", toggle);
+hamburger.addEventListener('click', toggle);
