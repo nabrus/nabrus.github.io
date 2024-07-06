@@ -12,5 +12,6 @@ function closeMenu() {
   dropdown.classList.remove('open');
 }
 
+
 hamburger.addEventListener('click', openMenu);
 dropdownCloseBtn.addEventListener('click', closeMenu);
