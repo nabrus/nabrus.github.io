@@ -1,8 +1,16 @@
 const hamburger = document.querySelector('.fa-bars');
 const dropdown = document.querySelector('.dropdown');
+const dropdownCloseBtn = document.querySelector('.close-btn');
 
-function toggle() {
-  dropdown.classList.toggle('open');
+// Open dropdown menu
+function openMenu() {
+  dropdown.classList.add('open');
 }
 
-hamburger.addEventListener('click', toggle);
+// Close dropdown menu
+function closeMenu() {
+  dropdown.classList.remove('open');
+}
+
+hamburger.addEventListener('click', openMenu);
+dropdownCloseBtn.addEventListener('click', closeMenu);
